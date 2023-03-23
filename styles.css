@@ -59,6 +59,7 @@ svg {
   margin-right: 1em;
 }
 
+
 .navigation_bar {
   display: flex;
   justify-content: space-between;
@@ -79,6 +80,8 @@ svg {
 .navigation_bar svg {
   margin-right: 2em;
 }
+
+
 
 /* main section styles */
 
@@ -146,4 +149,20 @@ svg {
 
 .icons img {
   height: 1em;
+}
+
+
+/* media querries */
+
+@media only screen and (min-width: 375px) {
+  .top {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .content p {
+    font-size: x-large;
+  }
+
 }
