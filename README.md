@@ -57,11 +57,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello_Microverse] <a name="about-project"></a>
+# 📖 [Benjamin_Portfolio] <a name="about-project"></a>
 
 
 
-**[Hello_Microverse]** is a Setup of the project repository
+**[Benjamin_Portfolio]** is a Setup of the project repository
 
 ## 🛠 Built With <a name="built-with"></a>
 
