@@ -84,7 +84,11 @@ svg {
 
 .content {
   background-color: #1c1a19;
+  background-image: url(img/illustration-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
   height: 85%;
+
 }
 
 .content .details {
@@ -116,6 +120,7 @@ svg {
   color: #fff5e1;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
+  margin: 0.5em 0;
 }
 
 .content p {
