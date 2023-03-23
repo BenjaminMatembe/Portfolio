@@ -223,7 +223,7 @@ I would like to thank my coding partners for the help rendered when doing this p
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/BenjaminMatembe/Hello_microverse/blob/master/MIT.md) licensed.
+This project is [MIT](https://github.com/BenjaminMatembe/Portfolio/blob/main/MIT.md) licensed.
 
 
 
