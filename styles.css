@@ -47,18 +47,8 @@ svg {
 }
 
 .svg section {
-  /* display: flex;
-  background-color: blue;
-  flex-basis: 50%;
-  /* flex: 1; */
-
-  /* align-self: center; */
-
-  /* justify-content: center; */
-
   margin-right: 1em;
 }
-
 
 .navigation_bar {
   display: flex;
@@ -73,15 +63,11 @@ svg {
 .navigation_bar h1 {
   margin-left: 1em;
   font-family: 'Roboto', sans-serif;
-
-  /* font-weight: 200; */
 }
 
 .navigation_bar svg {
   margin-right: 2em;
 }
-
-
 
 /* main section styles */
 
@@ -98,14 +84,8 @@ svg {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-
-  /* align-content: center; */
   width: 90%;
   height: 80%;
-
-  /* background-color: yellow; */
-
-  /* margin: 0 auto; */
   margin: 0 1.5em 0 1.5em;
 }
 
@@ -114,8 +94,6 @@ svg {
   color: #ff6b00;
   font-size: 3em;
   font-weight: 400;
-
-  /* margin-bottom: 0.1em; */
 }
 
 .content h3 {
@@ -131,26 +109,19 @@ svg {
   line-height: 1.5em;
   font-size: 1.1em;
   font-weight: 300;
-
-  /* margin: 0 1.5em; */
 }
 
 .icons {
   display: flex;
   width: 50%;
   justify-content: center;
-
-  /* margin-top: 1em; */
   gap: 1em;
-
-  /* background-color: green; */
   margin-top: 1.5em;
 }
 
 .icons img {
   height: 1em;
 }
-
 
 /* media querries */
 
@@ -164,5 +135,4 @@ svg {
   .content p {
     font-size: x-large;
   }
-
 }
