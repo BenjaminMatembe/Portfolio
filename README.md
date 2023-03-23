@@ -127,11 +127,11 @@ Clone the code from project using terminal into your local machine and then open
 >Clone this repository to your desired folder using:
 
  <h1>Setup SSH-key and use this command</h1>
- git clone git@github.com:BenjaminMatembe/Hello_microverse.git
+ git clone git@github.com:BenjaminMatembe/Portfolio.git
 
  <h1>Using HTTPS</h1>
 
- git clone https://github.com/BenjaminMatembe/Hello_microverse.git
+ git clone https://github.com/BenjaminMatembe/Portfolio.git
 
 
 
