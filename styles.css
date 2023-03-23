@@ -69,10 +69,9 @@ svg {
   margin-right: 2em;
 }
 
-.navigation_bar svg:hover{
+.navigation_bar svg:hover {
   cursor: pointer;
 }
-
 
 /* main section styles */
 
@@ -128,13 +127,14 @@ svg {
   height: 1em;
 }
 
-.icons img:hover{
+.icons img:hover {
   /* color: #ff6b00; */
   cursor: pointer;
 }
 
 /* media querries */
-/* 
+
+/*
 @media only screen and (min-width: 375px) {
   .top {
     display: none;
