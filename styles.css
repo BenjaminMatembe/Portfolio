@@ -1,3 +1,168 @@
-h1 {
-  color: red;
+
+ /* styles applying to all */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+svg {
+  fill: #FFFFFF;
+}
+
+.body{
+  
+  height: 100vh;
+  width: 100%;
+  
+}
+
+
+/* styles for top bar */
+
+.top{
+  background-color:#3C3A39 ;
+  height: 15%;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.top_bar{
+  display: flex;
+  
+  
+}
+
+
+.svg{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: pink; */
+  height: 50%;
+  width: 100%;
+  
+}
+
+.svg p{
+  /* background-color: red; */
+  /* flex: 1; */
+  margin-left: 2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.svg section{
+  /* display: flex;
+  background-color: blue;
+  flex-basis: 50%;
+  /* flex: 1; */
+  /* align-self: center; */
+  /*justify-content: center; */
+
+  margin-right: 1em;
+  
+
+}
+
+.navigation_bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: orange; */
+  height: 50%;
+  width: 100%;
+  
+}
+
+.navigation_bar h1{
+  margin-left: 1em;
+  font-family: 'Roboto', sans-serif;
+  /* font-weight: 200; */
+}
+
+.navigation_bar svg{
+  margin-right: 2em;
+}
+
+
+
+
+
+
+/* main section styles */
+
+.content{
+
+  background-color: #1C1A19;
+  height: 85%;
+  
+ 
+  
+  
+}
+
+.content .details{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  /* align-content: center; */
+  width: 90%;
+  height: 80%;
+  /* background-color: yellow; */
+  /* margin: 0 auto; */
+  margin: 0 1.5em 0 1.5em;
+}
+
+
+
+.content h1{
+  font-family: 'Crete Round', serif;
+  color: #FF6B00;
+  font-size:3.0em ;
+  font-weight: 400;
+  /* margin-bottom: 0.1em; */
+
+ 
+  
+}
+
+.content h3{
+  color: #FFF5E1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  
+  
+
+}
+
+
+.content p{
+  
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  font-weight: 300;
+
+  /* margin: 0 1.5em; */
+  
+ 
+
+}
+
+.icons{
+  display: flex;
+  width: 50%;
+  
+  justify-content: center;
+  /* margin-top: 1em; */
+  gap: 1em;
+  /* background-color: green; */
+  margin-top: 1.5em;
+  
+  
+}
+
+.icons img{
+  height: 1em;
 }
