@@ -6,6 +6,12 @@
   margin: 0;
 }
 
+/* variables */
+
+:root {
+  --cardbutton: #ff6b00;
+}
+
 svg {
   fill: #fff;
 }
@@ -77,6 +83,7 @@ svg {
 .content h3 {
   color: #fff5e1;
   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   font-size: 1.5em;
   margin: 0.5em 0;
 }
@@ -86,7 +93,7 @@ svg {
   font-family: 'Poppins', sans-serif;
   line-height: 1.5em;
   font-size: 1.1em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .icons {
@@ -108,6 +115,300 @@ svg {
 .icons img:hover {
   /* color: #ff6b00; */
   cursor: pointer;
+}
+
+/* styles for works section */
+.works {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax(386px, auto);
+
+  /* grid-gap: 2px; */
+}
+
+/* styles for section1 works */
+
+.btw {
+  display: flex;
+  justify-content: center;
+}
+
+.ul_li {
+  font-size: 0.94em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  background-color: white;
+}
+
+.section1 {
+  width: 90%;
+  height: 100%;
+}
+
+.section1 p {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.section1 h1 {
+  color: #091e42;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 2.75em;
+}
+
+.section1_button {
+  background-color: var(--cardbutton);
+  width: 7.75em;
+  height: 3em;
+  border: none;
+  margin-top: 0.375em;
+  padding: 0.75em;
+}
+
+.section1 header h1 {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  line-height: 3.25em;
+  margin-top: 1.5em;
+}
+
+.section1 .horizontal_rule,
+.about .horizontal_rule {
+  width: 90%;
+  color: #212121;
+  margin: 0.625em 0 3.75em 0;
+}
+
+.section1_button a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.section1 ul,
+.background_wrapper ul {
+  display: flex;
+  list-style: none;
+  margin-top: 0.375em;
+  margin-left: -0.25em;
+}
+
+.section1 ul li,
+.background_wrapper ul li {
+  padding: 4px;
+}
+
+.section1 ul li button,
+.background_wrapper ul li button {
+  padding: 0.63em 0.75em;
+  border: 1px solid #8993a4;
+}
+
+/* styles section 2 to 7 */
+
+.background {
+  display: flex;
+  justify-content: center;
+
+  /* align-content: center; */
+
+  /* background-color: red */
+}
+
+.background_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 90%;
+  height: 100%;
+  background-image: url(img/background.png);
+
+  /* background-repeat: no-repeat; */
+
+  /* background-position: center; */
+
+  /* background-color: blue; */
+}
+
+.background_wrapper .ul_li {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.24);
+  margin-top: 20px;
+}
+
+.background_wrapper main,
+.background_wrapper section {
+  /*
+  width: 90%;
+  height: 42%;
+  background-color: green; */
+  margin-left: 12px;
+}
+
+.background_wrapper h1 {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #fff;
+  line-height: 44px;
+}
+
+.background_wrapper p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  color: #fff;
+}
+
+.project {
+  width: 100%;
+  height: 3em;
+  background-color: var(--cardbutton);
+  border: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  /* margin-top: 100px; */
+}
+
+.project a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+
+/* styles for the about me section */
+
+.about {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.about_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 6.3em;
+  width: 90%;
+  height: 100%;
+
+  /* background-color: black; */
+  background-color: green;
+
+  /* background-image: url(img/aboutbackground.png); */
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.about_wrapper .aboutme {
+  color: var(--cardbutton);
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+}
+
+.about_wrapper .aboutparagraph {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.about_wrapper button {
+  background-color: var(--cardbutton);
+  width: 9.75em;
+  height: 3em;
+  border: none;
+  margin-top: 1.375em;
+  padding: 0.75em;
+}
+
+.about_wrapper button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.aboutimage {
+  display: flex;
+
+  /* align-items: flex-end; */
+
+
+  justify-content: space-between;
+
+  /* width: 100%; */
+
+  /* height: 100%; */
+
+  /* background-color: red; */
+
+  /* align-items: flex-end; */
+}
+
+.about .horizontal_rule {
+  margin-left: 0.94em;
+}
+
+.language {
+  display: flex;
+
+  /* justify-content: center; */
+
+  /* margin-left: 90px; */
+}
+
+.language h1 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.language img {
+  width: 18px;
+  height: 18px;
+  margin-top: 10px;
+}
+
+.above {
+  margin-left: 100px;
+}
+
+.second {
+  margin-left: 90px;
+}
+
+.third {
+  margin-left: 110px;
+}
+
+.language img {
+  margin: 0 5px;
+}
+
+.about ul {
+  text-align: center;
+}
+
+.about ul li {
+  list-style: none;
 }
 
 /* media querries */
