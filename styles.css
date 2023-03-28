@@ -463,6 +463,7 @@ form textarea {
   font-size: 15px;
   line-height: 24px;
   font-style: italic;
+  outline: none;
   height: 114px;
   background-color: #fbf8f7;
 }
@@ -500,6 +501,16 @@ form input {
   border: 1px solid #f55800;
   cursor: pointer;
   color: #f55800;
+}
+
+.contact_button:active {
+  color: #f4f1f0;
+  background: #e05304;
+}
+
+.contact_button:disabled {
+  color: #f4f1f0;
+  background: #5b5957;
 }
 
 footer {
