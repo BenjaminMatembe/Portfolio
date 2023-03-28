@@ -413,6 +413,22 @@ svg {
   color: #fff;
 }
 
+.contact_form {
+  display: flex;
+  flex-flow: column;  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+} 
+
+form input, form textarea {
+  border: none;
+  margin-bottom: 10px;
+  
+}
 /* media querries of the screens */
 
 @media only screen and (min-width: 375px) {
@@ -424,5 +440,7 @@ svg {
 @media only screen and (min-width: 768px) {
   .content p {
     font-size: x-large;
-  }
+  } 
 }
+
+
