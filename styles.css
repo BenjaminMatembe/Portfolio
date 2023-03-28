@@ -413,6 +413,138 @@ svg {
   color: #fff;
 }
 
+.contact_form {
+  display: flex;
+  flex-flow: column;
+}
+
+.contact_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.contact_title p {
+  padding: 25px;
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin-left: 5%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+form textarea {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  font-style: italic;
+  outline: none;
+  height: 114px;
+  background-color: #fbf8f7;
+}
+
+form ul {
+  list-style: none;
+  width: 100%;
+}
+
+form ul li {
+  border-bottom: 1px solid #dbd8d7;
+  margin: 27px 0;
+  width: 100%;
+}
+
+form input {
+  outline: none;
+}
+
+.contact_button {
+  margin-top: 24px;
+  margin-bottom: 78px;
+  padding: 12px;
+  border: none;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: #ff6b00;
+}
+
+.contact_button:hover {
+  padding: 11px;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  cursor: pointer;
+  color: #f55800;
+}
+
+.contact_button:active {
+  color: #f4f1f0;
+  background: #e05304;
+}
+
+.contact_button:disabled {
+  color: #f4f1f0;
+  background: #5b5957;
+}
+
+footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 14px;
+  padding-bottom: 54px;
+}
+
+footer ul li {
+  margin: 11px;
+}
+
+footer ul li img {
+  width: 20px;
+  height: 20px;
+}
+
+footer div {
+  width: 134px;
+  height: 5px;
+  background-color: #0d151e;
+  margin-top: -20px;
+  border-radius: 10px;
+}
+
 /* media querries of the screens */
 
 @media only screen and (min-width: 375px) {
