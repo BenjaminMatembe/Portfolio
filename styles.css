@@ -989,7 +989,7 @@ svg {
     width: 100%;
     background-color: #262626;
     height: 40vh;
-    padding-bottom: 400px;
+    padding-bottom: 500px;
   }
 
   .desktop_languages {
@@ -1095,6 +1095,20 @@ svg {
   .card_project2 p {
     font-size: 17px;
     line-height: 24px;
+  }
+
+  .desktop_about {
+    /* padding: 10em 0; */
+    background-color: #262626;
+  }
+
+  .desktop_about hr {
+    margin-top: 100px;
+  }
+
+  .desktop_about .aboutdesktop {
+    padding-top: 50px;
+    margin-top: 90px;
   }
 
   .aboutdesktop p {
