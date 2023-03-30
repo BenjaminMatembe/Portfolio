@@ -1097,7 +1097,6 @@ svg {
   }
 
   .desktop_about {
-    /* padding: 10em 0; */
     background-color: #262626;
   }
 
@@ -1159,7 +1158,7 @@ svg {
     font-weight: 400;
     line-height: 43px;
   }
-  
+
   .desktop_works .website {
     background-size: cover;
     background-repeat: no-repeat;
