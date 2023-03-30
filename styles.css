@@ -165,34 +165,11 @@ svg {
     width: inherit;
   }
 
-
-.section1_button {
-  background-color: var(--cardbutton);
-  width: 7.75em;
-  height: 3em;
-  border: none;
-  margin-top: 0.375em;
-  padding: 0.75em;
-  color: white;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  transition: padding 1s, background-color 2s;
-}
-
-.section1_button:hover {
-  background-color: #fff5e1;
-  border: 1px solid #f55800;
-  padding: 5px;
-  cursor: pointer;
-  color: #f55800;
-}
-
   .icons img:hover {
     cursor: pointer;
   }
 
   /* styles for works section */
-
 
   .works {
     display: grid;
@@ -287,27 +264,12 @@ svg {
     line-height: 44px;
   }
 
-
-.project {
-  width: 100%;
-  height: 3em;
-  background-color: var(--cardbutton);
-  border: none;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: #fff;
-  transition: background-color 2s;
-}
-
   .title h1 {
     color: #fff;
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 2em;
   }
-
 
   .section1 header h1 {
     font-family: "Crete Round", serif;
@@ -489,26 +451,11 @@ svg {
     text-align: center;
   }
 
-
-.contact_button {
-  margin-top: 24px;
-  margin-bottom: 78px;
-  padding: 12px;
-  border: none;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  background: #ff6b00;
-  transition: background-color 1s;
-}
-=======
   .below ul li {
     list-style: none;
     line-height: 42.67px;
     color: #fff;
   }
-
 
   .contact_form {
     display: flex;
