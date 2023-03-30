@@ -497,6 +497,7 @@ form input {
   line-height: 24px;
   color: #fff;
   background: #ff6b00;
+  transition: background-color 1s;
 }
 
 .contact_button:hover {
