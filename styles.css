@@ -773,6 +773,28 @@ svg {
     width: 60%;
   }
 
+  .card_project button {
+    width: 100%;
+    border: none;
+    color: #fff;
+    height: 40px;
+    background-color: var(--cardbutton);
+    font-family: "Inter", sans-serif;
+    align-self: end;
+  }
+
+  .aboutdesktop button {
+    border: none;
+    background-color: var(--cardbutton);
+    color: #fff;
+    margin-top: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding: 12px;
+  }
+
   .first_card_details {
     width: 40%;
   }
@@ -814,6 +836,23 @@ svg {
     background-color: var(--cardbutton);
   }
 
+  .first_card_details button:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    cursor: pointer;
+    color: #f55800;
+  }
+
+  .first_card_details button:active {
+    color: #f4f1f0;
+    background: #e05304;
+  }
+
+  .first_card_details button:disabled {
+    color: #f4f1f0;
+    background: #5b5957;
+  }
+
   .card_project {
     display: grid;
     background-position: center;
@@ -821,14 +860,21 @@ svg {
     gap: 4;
   }
 
-  .card_project button {
-    width: 100%;
-    border: none;
-    color: #fff;
-    height: 40px;
-    background-color: var(--cardbutton);
-    font-family: "Inter", sans-serif;
-    align-self: end;
+  .card_project button:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    cursor: pointer;
+    color: #f55800;
+  }
+
+  .card_project button:active {
+    color: #f4f1f0;
+    background: #e05304;
+  }
+
+  .card_project button:disabled {
+    color: #f4f1f0;
+    background: #5b5957;
   }
 
   .card_project2 {
@@ -907,16 +953,21 @@ svg {
     color: #e05304;
   }
 
-  .aboutdesktop button {
-    border: none;
-    background-color: var(--cardbutton);
-    color: #fff;
-    margin-top: 15px;
-    font-family: "Inter", sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    padding: 12px;
+  .aboutdesktop button:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    cursor: pointer;
+    color: #f55800;
+  }
+
+  .aboutdesktop button:active {
+    color: #f4f1f0;
+    background: #e05304;
+  }
+
+  .aboutdesktop button:disabled {
+    color: #f4f1f0;
+    background: #5b5957;
   }
 
   .aboutdesktop .right {
@@ -1017,5 +1068,111 @@ svg {
   .hr_desktop {
     display: block;
     margin-top: -100px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .desktop_content .desktop_content-image {
+    background-size: 500px 500px;
+  }
+
+  .card_project2 h1 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .desktop_content .desktop_details h1 {
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 81px;
+  }
+
+  .desktop_content .desktop_details h3 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .card_project2 p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .aboutdesktop p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+
+  .desktop_content .desktop_details p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .card_project2 ul li {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .card_project button {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .aboutdesktop .left h1 {
+    font-size: 72px;
+    line-height: 81px;
+  }
+
+  .aboutdesktop button {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+
+  .desktop_about .language p {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .desktop_languages .language_list {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+  }
+
+  .desktop_languages_bottom {
+    padding-bottom: 450px;
+  }
+
+  .desktop_works .website {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .desktop_works .data {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .first_card_details ul {
+    margin-left: -1px;
+  }
+
+  .first_card_details ul li {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 8px;
+  }
+
+  .first_card_details button {
+    font-size: 17px;
+    line-height: 24px;
   }
 }
