@@ -294,6 +294,7 @@ svg {
   left: 0;
   right: 0;
   color: #fff;
+  transition: background-color 2s;
 }
 
 .project:hover {
