@@ -97,7 +97,7 @@ After you're finished please remove all the comments and instructions!
 
 
 <ul>
-    <li><a href="http://127.0.0.1:5500/Portfolio/index.html">Live Demo</a></li>
+    <li><a href="https://benjaminmatembe.github.io/Portfolio/">Live Demo</a></li>
     
   </ul>
   
@@ -156,9 +156,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy this project using:
-
->coming soon
+This project was deployed using github pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
