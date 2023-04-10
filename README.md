@@ -170,6 +170,12 @@ This project was deployed using github pages
 
 - GitHub: [@githubhandle](https://github.com/BenjaminMatembe)
 
+👤 **Nylbert Victor**
+
+- GitHub: [@redmarverick](https://github.com/redmarverick)
+- Twitter: [@MarverickRed]("https://twitter.com/MarverickRed)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nylbert-victor-397951120/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
