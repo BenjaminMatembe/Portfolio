@@ -15,7 +15,7 @@
   </head>
   <body>
     <main class="body">
-      <header class="top">
+      <header id="#portfolio"  class="top">
         <nav class="navigation_bar">
           <a href="#">My Logo</a>
           <svg
@@ -38,8 +38,16 @@
             </ul>
           
         </nav>
+        
       </header>
-
+      <section class="menuBar">
+        <div class="closeMenu">X</div>
+        <ul>
+          <li><a class="menuLinks"  href="#portfolio">Portfolio</a></li>
+          <li><a class="menuLinks" href="#about">About</a></li>
+          <li><a class="menuLinks" href="#contact">Contact</a></li>
+        </ul>
+      </section>
       <section class="content">
         <section class="details">
           
@@ -126,7 +134,7 @@
 <!-- About my works -->
 
       
-      <main class="works">
+      <main id="about" class="works">
  <main class="btw">
     <section class="section1 box">
         <head class="works_image">
@@ -506,7 +514,6 @@
 </div>
 
 <div class="right">
-  <!-- <img src="./img/illustration-about me@2x.png" alt=""> -->
 </div>
   </div>
 
@@ -564,7 +571,7 @@
       
 
    <!-- contact form -->
-<section class="contact_form">
+<section id="contact" class="contact_form">
   <div class="contact_title">
     <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
 
@@ -603,5 +610,7 @@
 
 
 </main>
+
+<script src="portfolio.js"></script>
       </body>
 </html>
