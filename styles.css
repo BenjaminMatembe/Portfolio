@@ -602,7 +602,11 @@ svg {
   }
 
   .menuBar ul li {
-    width: 97.5%;
+    width: 95.5%;
+    list-style: none;
+    border-bottom: 1px solid #6f6c6b;
+    padding: 4px;
+    margin: 0 8px;
   }
 
   .menuBar ul a {
@@ -614,7 +618,8 @@ svg {
     font-weight: 700;
     line-height: 44px;
     text-align: left;
-    border-bottom: 1px solid #6f6c6b;
+    margin-left: 10px;
+    
   }
 }
 
