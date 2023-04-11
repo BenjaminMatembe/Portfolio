@@ -20,6 +20,7 @@ svg {
 
 @media only screen and (min-width: 375px) {
   .body {
+    position: relative;
     height: 100vh;
     width: 100%;
   }
@@ -576,10 +577,57 @@ svg {
   .desktop_content {
     display: none;
   }
+
+  /* hamberger menu */
+
+  .menuBar {
+    display: none;
+    background-color: #3c3a39;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .closeMenu {
+    height: 12px;
+    left: 6px;
+    top: 6px;
+    border-radius: 0;
+    color: #67798e;
+    text-align: center;
+    margin: 40px 90%;
+    width: 20px;
+  }
+
+  .menuBar ul li {
+    width: 95.5%;
+    list-style: none;
+    border-bottom: 1px solid #6f6c6b;
+    padding: 4px;
+    margin: 0 8px;
+  }
+
+  .menuBar ul a {
+    display: block;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: #fff5e1;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    margin-left: 10px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .navigation_bar svg {
+    display: none;
+  }
+
+  .menuBar {
     display: none;
   }
 
@@ -857,7 +905,6 @@ svg {
     display: grid;
     background-position: center;
     background-repeat: no-repeat;
-    gap: 4;
   }
 
   .card_project button:hover {
@@ -1073,6 +1120,10 @@ svg {
 @media only screen and (min-width: 1000px) {
   .desktop_content .desktop_content-image {
     background-size: 500px 500px;
+  }
+
+  .menuBar {
+    display: none;
   }
 
   .card_project2 h1 {
