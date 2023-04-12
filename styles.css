@@ -386,8 +386,6 @@ svg {
     font-weight: 400;
     font-size: 2.5em;
     line-height: 3.25em;
-
-    /* margin-top: 1.5em; */
   }
 
   .section1 .horizontal_rule,
@@ -432,8 +430,6 @@ svg {
     position: relative;
     width: 90%;
     height: 100%;
-
-    /* background-image: url(img/background.png); */
   }
 
   .background_wrapper .ul_li {
