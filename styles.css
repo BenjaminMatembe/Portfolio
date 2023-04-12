@@ -27,60 +27,40 @@ svg {
 
   .mobileWorks {
     padding-bottom: 150px;
-
-    /* background-color: red; */
     margin-top: 150px;
     position: relative;
   }
 
   .popupMobile {
-    /* display: flex; */
-
-    /* justify-content: center; */
-
-    /* align-items: center; */
     background-color: #979493a9;
-
-    /* filter: blur(5px) brightness(100%); */
     backdrop-filter: blur(1px);
     width: 100%;
     height: 120%;
-
-    /* position: fixed; */
     position: absolute;
     top: 0;
     bottom: 0;
     display: none;
-
-    /* padding-bottom: 150px; */
-
-    /* overflow: hidden; */
   }
 
   .popUpData {
     background-color: white;
     width: 90%;
-
-    /* height: 100%; */
     margin-top: 50px;
     margin-left: 20px;
     padding-bottom: 20px;
   }
 
   .popUpData header {
-    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     width: 95%;
     height: 10%;
     align-items: center;
     padding-top: 40px;
-
-    /* margin: 10px auto 0 auto; */
   }
 
   .popH1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
@@ -96,7 +76,6 @@ svg {
   }
 
   .popList {
-    /* background-color: green; */
     width: 95%;
     display: flex;
     list-style: none;
@@ -105,19 +84,28 @@ svg {
     padding-bottom: 30px;
   }
 
+  form ul li {
+    height: 35px;
+    width: 90%;
+    margin: 11px;
+  }
+
   .popList li {
-    /* background-color: yellow; */
     border: 1px solid #dfe1e6;
     font-size: 13px;
     padding: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   .popImage {
-    /* background-color: green; */
     display: flex;
     justify-content: center;
     padding-bottom: 25px;
+  }
+
+  footer ul li img {
+    width: 20px;
+    height: 20px;
   }
 
   .popImage img {
@@ -126,11 +114,6 @@ svg {
   }
 
   .popPara {
-    /* display: flex; */
-
-    /* justify-content: center; */
-
-    /* background-color: green; */
     font-family: "Inter", sans-serif;
     font-size: 16px;
     width: 94%;
@@ -140,7 +123,6 @@ svg {
   }
 
   .popLinks {
-    /* background-color: red */
     display: flex;
     justify-content: space-around;
   }
@@ -275,23 +257,8 @@ svg {
     margin-top: 1.5em;
   }
 
-  form ul li {
-    border-bottom: 1px solid #dbd8d7;
-    margin: 27px 0;
-    width: 100%;
-  }
-
-  footer ul li {
-    margin: 11px;
-  }
-
   .icons li {
     list-style: none;
-  }
-
-  footer ul li img {
-    width: 20px;
-    height: 20px;
   }
 
   .icons img {
@@ -692,15 +659,6 @@ svg {
     background: #5b5957;
   }
 
-  /*
-  footer div {
-    width: 134px;
-    height: 5px;
-    background-color: #0d151e;
-    margin-top: -20px;
-    border-radius: 10px;
-  } */
-
   .hr_desktop {
     display: none;
   }
@@ -760,6 +718,10 @@ svg {
     text-align: left;
     margin-left: 10px;
   }
+
+  .popupDesktop {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -800,6 +762,102 @@ svg {
     display: flex;
     background-color: #1c1a19;
     height: 70%;
+  }
+
+  .popupDesktopt {
+    position: absolute;
+    top: 0;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1a1a72;
+    backdrop-filter: blur(1px);
+  }
+
+  .popXDesktop {
+    color: #67798e;
+    cursor: pointer;
+  }
+
+  .popupDesktopContent {
+    width: 85%;
+    height: 80%;
+    background-color: #fff;
+  }
+
+  .popupDesktopContent .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: "Crete Round", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+  }
+
+  .popupDesktopContent ul {
+    display: flex;
+    gap: 5px;
+  }
+
+  .popupDesktopContent ul li {
+    list-style: none;
+    padding: 5px;
+    color: #3c3a39;
+    border: 1px solid #eaeaec;
+  }
+
+  .deskContent {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    margin-top: 20px;
+  }
+
+  .deskContent .imageDiv {
+    background-color: green;
+    width: 50%;
+    margin-left: 10px;
+  }
+
+  .deskContent .contentDiv {
+    width: 45%;
+  }
+
+  .imageDiv img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .deskContent p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .deskContent .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 43px;
+    height: 40px;
+    margin-left: 11px;
+  }
+
+  .buttons button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: var(--cardbutton);
+    width: 108px;
+    height: 40px;
+    border: none;
+    font-family: "Inter", sans-serif;
   }
 
   .desktop_content .desktop_icons {
@@ -998,11 +1056,6 @@ svg {
     margin-top: 15px;
   }
 
-  form ul li {
-    height: 35px;
-    width: 90%;
-  }
-
   .first_card_details ul li {
     border: 1px solid #8993a4;
     padding: 2px;
@@ -1071,6 +1124,7 @@ svg {
   .card_project2 {
     color: #fff;
     align-content: center;
+    background-color: red;
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
