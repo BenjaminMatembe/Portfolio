@@ -34,49 +34,31 @@ svg {
   }
 
   .popupMobile {
-    /* display: flex; */
-
-    /* justify-content: center; */
-
-    /* align-items: center; */
     background-color: #979493a9;
-
-    /* filter: blur(5px) brightness(100%); */
     backdrop-filter: blur(1px);
     width: 100%;
     height: 120%;
-
-    /* position: fixed; */
     position: absolute;
     top: 0;
     bottom: 0;
     display: none;
-
-    /* padding-bottom: 150px; */
-
-    /* overflow: hidden; */
   }
 
   .popUpData {
     background-color: white;
     width: 90%;
-
-    /* height: 100%; */
     margin-top: 50px;
     margin-left: 20px;
     padding-bottom: 20px;
   }
 
   .popUpData header {
-    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     width: 95%;
     height: 10%;
     align-items: center;
     padding-top: 40px;
-
-    /* margin: 10px auto 0 auto; */
   }
 
   .popH1 {
@@ -96,7 +78,6 @@ svg {
   }
 
   .popList {
-    /* background-color: green; */
     width: 95%;
     display: flex;
     list-style: none;
@@ -106,7 +87,6 @@ svg {
   }
 
   .popList li {
-    /* background-color: yellow; */
     border: 1px solid #dfe1e6;
     font-size: 13px;
     padding: 10px;
@@ -114,7 +94,6 @@ svg {
   }
 
   .popImage {
-    /* background-color: green; */
     display: flex;
     justify-content: center;
     padding-bottom: 25px;
@@ -126,11 +105,6 @@ svg {
   }
 
   .popPara {
-    /* display: flex; */
-
-    /* justify-content: center; */
-
-    /* background-color: green; */
     font-family: "Inter", sans-serif;
     font-size: 16px;
     width: 94%;
@@ -140,7 +114,6 @@ svg {
   }
 
   .popLinks {
-    /* background-color: red */
     display: flex;
     justify-content: space-around;
   }
@@ -419,8 +392,6 @@ svg {
     font-weight: 400;
     font-size: 2.5em;
     line-height: 3.25em;
-
-    /* margin-top: 1.5em; */
   }
 
   .section1 .horizontal_rule,
@@ -465,8 +436,6 @@ svg {
     position: relative;
     width: 90%;
     height: 100%;
-
-    /* background-image: url(img/background.png); */
   }
 
   .background_wrapper .ul_li {
