@@ -73,18 +73,50 @@ const popupMobile = document.querySelector('.popupMobile');
 
 const popBtn = document.querySelectorAll('.pop_btn');
 
-const popClose = document.querySelector('.popX');
+const dataPoped = document.querySelector('.body');
+
+popupMobile.innerHTML = `<div class="popUpData">
+<header>
+  <p class="popH1">Multi Post Stories</p>
+  <span class="popX">&times;</span>
+</header>
+<section>
+  <ul class="popList">
+    <li>HTML</li>
+    <li>Bootsrap</li>
+    <li>Ruby on Rails</li>
+  </ul>
+  <div class="popImage">
+    <img src="img/popup.png" alt="10 years">
+  </div>
+  <div class="popPara">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+      scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+      electronic typesetting, remaining essent</p>
+  </div>
+
+  <div class="popLinks"><button><a href="">See live</a><span><img src="img/seeLive.png" alt=""></span></button>
+    <button><a href="">See source</a><span><img src="./img/gitLive.png" alt=""></span></button>
+
+  </div>
+</section>
+</div>`;
 
 popBtn.forEach((btn) => {
   btn.addEventListener('click', (e) => {
     popupMobile.style.display = 'block';
     window.scrollTo(0, 0);
+    dataPoped.style.overflow = 'hidden';
     e.stopPropagation();
   });
 });
 
+const popClose = document.querySelector('.popX');
+
 popClose.addEventListener('click', (e) => {
   popupMobile.style.display = 'none';
+  dataPoped.style.overflow = 'visible';
   e.stopPropagation();
 });
 
@@ -92,7 +124,7 @@ popClose.addEventListener('click', (e) => {
 const htmlDesktopWorks = document.querySelector('.desktopWorks');
 
 const cardDetailsDesktop = [
-  { name: ['Data Dashboard Healthcare', 'Website Portfolio', 'Professional Art Printing Data More', 'Datadashboard Healthcare', 'Website Portfolio'] },
+  { name: ['Data Dashboard Healthcare', 'Professional Art Printing Data More', 'Website Portfolio', 'Professional Art Printing Data More', 'Datadashboard Healthcare', 'Website Portfolio'] },
   { description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard." },
   { technologies: ['HTML', 'Bootstrap', 'Ruby'] },
 ];
@@ -101,12 +133,14 @@ const desktopDynamic = document.createElement('div');
 
 htmlDesktopWorks.appendChild(desktopDynamic);
 
-desktopDynamic.innerHTML = "<section class='desktop_works'><div class='box1 first_work'><div class='first_card'><h1>My Recent Works</h1><span></span></div><div class='first_card_bottom'> <div class='first_card_image'><img src='./img/myWorks.png' alt=''></div> <div class='first_card_details'><h1>Multi-Post Stories</h1><p>A daily selection of privately personalized reads; no accounts or sign-ups required. This has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p><ul><li>CSS</li><li>HTML</li><li>Bootstrap</li><li>Ruby</li></ul><button class='pop_btnDesktop'>See project</button></div> </div></div><div class='card_project box1 professional2'><button class='pop_btnDesktop'>See project</button></div></section>";
+desktopDynamic.innerHTML = "<section class='desktop_works'><div class='box1 first_work'><div class='first_card'><h1>My Recent Works</h1><span></span></div><div class='first_card_bottom'> <div class='first_card_image'><img src='./img/myWorks.png' alt=''></div> <div class='first_card_details'><h1>Multi-Post Stories</h1><p>A daily selection of privately personalized reads; no accounts or sign-ups required. This has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p><ul><li>CSS</li><li>HTML</li><li>Bootstrap</li><li>Ruby</li></ul><button class='pop_btnDesktop'>See project</button></div> </div></div></section>";
 
 const desktopWorksDynamic = document.querySelector('.desktop_works');
 
 for (let i = 0; i < cardDetailsDesktop[0].name.length; i += 1) {
   desktopWorksDynamic.innerHTML += `<div class="card_project2 box2 data">
+  <div class='card_project box1 professional2'><button class='pop_btnDesktop'>See project</button></div>
+  
   <h1>${cardDetailsDesktop[0].name[i]}</h1>
   <p>${cardDetailsDesktop[1].description}</p>
   <ul>
@@ -121,17 +155,48 @@ const popupDesktop = document.querySelector('.popupDesktop');
 
 const popBtnDesktop = document.querySelectorAll('.pop_btnDesktop');
 
-const popCloseDesktop = document.querySelector('.popXDesktop');
+popupDesktop.innerHTML = `<div class="popupDesktopContent">
+<div class="title"><span>Keeping track of hundreds of components website</span>
+  <span class="popXDesktop">&times;</span>
+</div>
+<ul>
+  <li>HTML</li>
+  <li>Bootstrap</li>
+  <li>Ruby on rails</li>
+</ul>
+<div class="deskContent">
+  <div class="imageDiv"><img src="./img/popup.png" alt=""></div>
+  <div class="contentDiv">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+      scrambled it 1960s.
+      <br>
+      <br>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+      scrambled it 1960s with the releax map lapora verita.
+    </p>
+    <div class="buttons">
+      <button><span>See live</span><span><img src="./img/seeLive.png" alt=""></span></button>
+      <button><span>See source</span><span><img src="./img/gitLive.png" alt=""></span></button>
+    </div>
+  </div>
+</div>
+</div>`;
 
 popBtnDesktop.forEach((btn) => {
   btn.addEventListener('click', (e) => {
     popupDesktop.classList.add('popupDesktopt');
     window.scrollTo(0, 0);
+    dataPoped.style.overflow = 'hidden';
     e.stopPropagation();
   });
 });
 
+const popCloseDesktop = document.querySelector('.popXDesktop');
+
 popCloseDesktop.addEventListener('click', (e) => {
   popupDesktop.classList.remove('popupDesktopt');
+  dataPoped.style.overflow = 'visible';
   e.stopPropagation();
 });

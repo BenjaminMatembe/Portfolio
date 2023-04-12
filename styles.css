@@ -35,16 +35,15 @@ svg {
     background-color: #979493a9;
     backdrop-filter: blur(1px);
     width: 100%;
-    height: 120%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
+    height: 100%;
+    position: fixed;
     display: none;
   }
 
   .popUpData {
     background-color: white;
     width: 90%;
+    height: 90%;
     margin-top: 50px;
     margin-left: 20px;
     padding-bottom: 20px;
@@ -56,7 +55,7 @@ svg {
     width: 95%;
     height: 10%;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 20px;
   }
 
   .popH1 {
@@ -80,7 +79,8 @@ svg {
     display: flex;
     list-style: none;
     gap: 10px;
-    margin-top: 40px;
+
+    /* margin-top: 40px; */
     padding-bottom: 30px;
   }
 
@@ -115,11 +115,11 @@ svg {
 
   .popPara {
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     width: 94%;
     margin-left: 2px;
-    line-height: 24px;
-    padding-bottom: 20px;
+    line-height: 21px;
+    padding-bottom: 10px;
   }
 
   .popLinks {
@@ -761,9 +761,8 @@ svg {
   }
 
   .popupDesktopt {
-    position: absolute;
-    top: 0;
-    height: 80%;
+    position: fixed;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -779,7 +778,8 @@ svg {
 
   .popupDesktopContent {
     width: 85%;
-    height: 80%;
+    height: auto;
+    padding-bottom: 2%;
     background-color: #fff;
   }
 
@@ -820,6 +820,8 @@ svg {
   }
 
   .deskContent .contentDiv {
+    display: flex;
+    flex-direction: column;
     width: 45%;
   }
 
@@ -839,8 +841,7 @@ svg {
   .deskContent .buttons {
     display: flex;
     gap: 10px;
-    margin-top: 43px;
-    height: 40px;
+    margin-top: auto;
     margin-left: 11px;
   }
 
@@ -1096,8 +1097,21 @@ svg {
 
   .card_project {
     display: grid;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.2s ease-in 0.2s;
+  }
+
+  .card_project:hover {
+    opacity: 1;
+    cursor: pointer;
   }
 
   .card_project button:hover {
@@ -1120,10 +1134,10 @@ svg {
   .card_project2 {
     color: #fff;
     align-content: center;
-    background-color: red;
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
+    position: relative;
   }
 
   .card_project2 ul {
