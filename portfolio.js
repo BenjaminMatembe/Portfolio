@@ -212,3 +212,29 @@ formValidation.addEventListener('submit', (e) => {
   }
   return true;
 });
+
+const sendInfo = () => {
+  const info = {
+    name: formValidation.fullname.value,
+    email: formValidation.email.value,
+    text: formValidation.written.value,
+
+  };
+  localStorage.setItem('formInfo', JSON.stringify(info));
+};
+
+const fetchInfo = () => {
+  const formInfo = JSON.parse(localStorage.getItem('formInfo'));
+
+  if (formInfo) {
+    formValidation.fullname.value = formInfo.name;
+    formValidation.email.value = formInfo.email;
+    formValidation.written.value = formInfo.text;
+  }
+};
+
+formValidation.fullname.addEventListener('input', sendInfo);
+formValidation.email.addEventListener('input', sendInfo);
+formValidation.written.addEventListener('input', sendInfo);
+
+fetchInfo();
