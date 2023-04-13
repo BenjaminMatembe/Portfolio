@@ -598,6 +598,14 @@ form {
   align-items: center;
   width: 90%;
   margin-left: 5%;
+  position: relative;
+}
+
+.submitErrorMessage {
+  color: red;
+  position: absolute;
+  left: 25%;
+  bottom: 34%;
 }
 
 form input,
@@ -1291,6 +1299,13 @@ form input {
     justify-content: center;
     flex-basis: 60%;
     margin-left: 0;
+  }
+
+  .submitErrorMessage {
+    color: red;
+    position: absolute;
+    left: 0.5%;
+    bottom: 45%;
   }
 
   .contact_title {
