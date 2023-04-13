@@ -10,6 +10,10 @@ const htmlMobileWorks = document.querySelector('.mobileWorks');
 
 const mobileDynamic = document.createElement('div');
 
+const formValidation = document.querySelector('form');
+
+const error = document.querySelector('.submitErrorMessage');
+
 const cardDetailsMobile = [
   { name: 'Professional Art Printing Data' },
   { description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.' },
@@ -199,4 +203,16 @@ popCloseDesktop.addEventListener('click', (e) => {
   popupDesktop.classList.remove('popupDesktopt');
   dataPoped.style.overflow = 'visible';
   e.stopPropagation();
+});
+
+//validating form javascript
+
+formValidation.addEventListener('submit', (e) => {
+  if(formValidation.email.value === formValidation.email.value.toLowerCase()){
+    return true;
+  }else{
+    error.textContent = "email should be in lower e.g mata@gmail.com";
+    e.preventDefault();
+  }
+
 });
