@@ -205,14 +205,10 @@ popCloseDesktop.addEventListener('click', (e) => {
   e.stopPropagation();
 });
 
-//validating form javascript
-
 formValidation.addEventListener('submit', (e) => {
-  if(formValidation.email.value === formValidation.email.value.toLowerCase()){
-    return true;
-  }else{
-    error.textContent = "email should be in lower e.g mata@gmail.com";
+  if (formValidation.email.value !== formValidation.email.value.toLowerCase()) {
+    error.textContent = 'email should be in lower e.g mata@gmail.com';
     e.preventDefault();
   }
-
+  return true;
 });
