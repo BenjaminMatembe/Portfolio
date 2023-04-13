@@ -212,3 +212,5 @@ formValidation.addEventListener('submit', (e) => {
   }
   return true;
 });
+
+//start of local storage functionality;
