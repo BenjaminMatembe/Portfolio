@@ -2,8 +2,6 @@ const hambergerMenuOpen = document.querySelector('.box');
 
 const menu = document.querySelector('.menuBar');
 
-// make comments
-
 const menuLinks = document.querySelectorAll('.menuLinks');
 
 const closeMenu = document.querySelector('.closeMenu');
