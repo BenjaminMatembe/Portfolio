@@ -16,6 +16,7 @@ This project is to show case my built projects using the different technologies 
   <ul>
     <li><a href="https://www.w3schools.com/html/">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://www.w3schools.com/javascript/">Javascript</a></li>
   </ul>
 
 ## 🚀 Live Demo 
